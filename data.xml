@@ -1,0 +1,99 @@
+<character location.name="table" location.x="250" location.y="450" posZ="0">
+  <data name="character">
+    <data name="image">
+      <data type="image" name="imageIdentifier">none_icon</data>
+    </data>
+    <data name="common">
+      <data name="name">カミガカリ</data>
+      <data name="size">1</data>
+    </data>
+    <data name="detail">
+      <data name="リソース">
+        <data type="numberResource" currentValue="50" name="生命力">50</data>
+        <data type="numberResource" currentValue="22" name="霊紋">22</data>
+        <data type="numberResource" currentValue="15" name="行動値"></data>
+        <data type="numberResource" currentValue="5" name="装甲"></data>
+        <data type="numberResource" currentValue="5" name="結界"></data>
+      </data>
+      <data name="装備">
+        <data type="note" name="武器">名称：
+追加効果：</data>
+        <data type="note" name="武器/盾">名称：
+追加効果：</data>
+        <data type="note" name="鎧">名称：
+追加効果：</data>
+        <data type="note" name="装飾1">名称：</data>
+        <data type="note" name="装飾2">名称：</data>
+      </data>
+      <data name="主能力値">
+        <data name="体力"></data>
+        <data name="敏捷"></data>
+        <data name="知性"></data>
+        <data name="精神"></data>
+        <data name="幸運"></data>
+      </data>
+      <data name="戦闘値(総計)">
+        <data name="命中"></data>
+        <data name="回避"></data>
+        <data name="発動"></data>
+        <data name="抵抗"></data>
+        <data name="看破"></data>
+        <data name="物D"></data>
+        <data name="魔D"></data>
+      </data>
+      <data name="移動">
+        <data name="簡易移動">1</data>
+        <data name="戦闘移動"></data>
+        <data name="全力移動"></data>
+      </data>
+      <data name="タレント">
+        <data name="▲1_1"></data>
+        <data name="▲1_2"></data>
+        <data name="*main"></data>
+        <data name="*sub"></data>
+        <data name="1_1"></data>
+        <data name="1_2"></data>
+        <data name="2"></data>
+        <data name="3"></data>
+        <data name="4"></data>
+        <data name="5"></data>
+        <data name="▲5"></data>
+        <data name="6"></data>
+        <data name="7"></data>
+        <data name="8"></data>
+        <data name="9"></data>
+        <data name="10"></data>
+        <data name="▲10"></data>
+        <data name="*10"></data>
+        <data name="11"></data>
+        <data name="12"></data>
+        <data name="13"></data>
+        <data name="14"></data>
+        <data name="15"></data>
+        <data name="▲15"></data>
+        <data name="16"></data>
+        <data name="17"></data>
+        <data name="18"></data>
+        <data name="19"></data>
+        <data name="20"></data>
+        <data name="▲20"></data>
+        <data name="*20"></data>
+      </data>
+    </data>
+  </data>
+  <chat-palette dicebot="Kamigakari">
+//主能力値判定
+2d6+{体力} {name}の体力判定
+2d6+{敏捷} {name}の敏捷判定
+2d6+{知性} {name}の知性判定
+2d6+{精神} {name}の精神判定
+2d6+{幸運} {name}の幸運判定
+
+//戦闘値判定
+2d6+{命中} {name}の命中判定
+2d6+{回避} {name}の回避判定
+2d6+{発動} {name}の発動判定
+2d6+{抵抗} {name}の抵抗判定
+2d6+{看破} {name}の看破判定
+</chat-palette>
+</character>
