@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <character location.name="table" location.x="250" location.y="450" posZ="0">
   <data name="character">
     <data name="image">
@@ -9,11 +10,11 @@
     </data>
     <data name="detail">
       <data name="リソース">
-        <data type="numberResource" currentValue="50" name="生命力">50</data>
-        <data type="numberResource" currentValue="22" name="霊紋">22</data>
-        <data type="numberResource" currentValue="15" name="行動値"></data>
-        <data type="numberResource" currentValue="5" name="装甲"></data>
-        <data type="numberResource" currentValue="5" name="結界"></data>
+        <data type="numberResource" currentValue="50" name="HP">50</data>
+        <data type="numberResource" currentValue="22" name="MP">22</data>
+        <data type="numberResource" currentValue="1" name="行動値">1</data>
+        <data type="numberResource" currentValue="0" name="装甲">0</data>
+        <data type="numberResource" currentValue="0" name="結界">0</data>
       </data>
       <data name="装備">
         <data type="note" name="武器">名称：
@@ -32,7 +33,7 @@
         <data name="精神"></data>
         <data name="幸運"></data>
       </data>
-      <data name="戦闘値(総計)">
+      <data name="戦闘値（総計）">
         <data name="命中"></data>
         <data name="回避"></data>
         <data name="発動"></data>
@@ -45,6 +46,31 @@
         <data name="簡易移動">1</data>
         <data name="戦闘移動"></data>
         <data name="全力移動"></data>
+      </data>
+      <data name="種族/称号">
+        <data name="種族"></data>
+        <data name="種族特典"></data>
+        <data name="表の職業"></data>
+        <data name="特徴"></data>
+        <data name="称号系統"></data>
+        <data name="メイン称号"></data>
+        <data name="サブ称号"></data>
+      </data>
+      <data name="パーソナリティ">
+        <data type="note" name="概要">組織：
+年齢：
+性別：
+新調：
+体重：
+瞳の色：
+髪の色：
+肌の色：
+その他：
+
+経緯：
+霊紋の位置：
+霊紋の形状：
+目的：</data>
       </data>
       <data name="タレント">
         <data name="▲1_1"></data>
